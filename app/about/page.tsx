@@ -69,7 +69,7 @@ export default function AboutPage() {
           <div className="max-w-[760px] mx-auto text-center mb-10">
             <h2 className="text-step-3 font-display font-bold text-white mb-3">Trust is earned before the first visit</h2>
             <p className="text-step-0 text-white/80 m-0 leading-relaxed">
-              All caregivers undergo background checks, training and ongoing supervision. We follow recognized care standards and maintain strict infection-control practices to protect our clients and their families.
+              All staff will undergo level II background checks, training and ongoing supervision. We follow recognized homemaker and companion service standards.
             </p>
           </div>
           
@@ -77,9 +77,7 @@ export default function AboutPage() {
             {[
               "Level II background checks on every personal support associate, before placement",
               "Ongoing training and competency verification",
-              "Active supervision by care coordinators, not just at intake",
-              "Recognized care standards applied consistently",
-              "Strict infection-control practices in every home"
+              "Active supervision by support coordinators, not just at intake"
             ].map((rule, idx) => (
               <div key={idx} className="bg-brand-ink-deep border border-brand-ink-soft p-5 rounded-brand-md flex items-start gap-3">
                 <span className="text-brand-clay-500 font-bold text-step-1 leading-none">✓</span>
