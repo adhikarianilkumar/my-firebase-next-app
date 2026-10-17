@@ -18,7 +18,7 @@ export default function Header() {
             <a href="/" className="inline-flex items-center gap-3 no-underline text-brand-ink-dark">
               <div className="flex flex-col line-height-[1.12]">
                 <span className="font-display text-[1.16rem] font-semibold tracking-tight">Optimal Homecare</span>
-                <span className="text-[0.7rem] tracking-wider uppercase font-semibold text-brand-clay-700">Compassionate Care. Local Heart.</span>
+                <span className="text-[0.7rem] tracking-wider uppercase font-semibold text-brand-clay-700">Compassionate Homemaker and Companion services</span>
               </div>
             </a>
 
@@ -30,8 +30,8 @@ export default function Header() {
             </nav>
 
             <div className="hidden md:flex items-center">
-              <a href="tel:9045550100" className="inline-flex items-center justify-center min-h-[46px] px-5 py-2 border-2 border-transparent text-step-minus-1 font-semibold rounded-full text-white bg-brand-clay-600 hover:bg-brand-clay-700 shadow-brand-sm transition-all hover:-translate-y-0.5">
-                📞 (904) 555-0100
+              <a href="tel:9048726116" className="inline-flex items-center justify-center min-h-[46px] px-5 py-2 border-2 border-transparent text-step-minus-1 font-semibold rounded-full text-white bg-brand-clay-600 hover:bg-brand-clay-700 shadow-brand-sm transition-all hover:-translate-y-0.5">
+                📞 (904) 872-6116
               </a>
             </div>
 
@@ -52,8 +52,8 @@ export default function Header() {
             <a href="/services" className="block p-3 text-[1.06rem] font-medium text-brand-ink-soft rounded-brand-sm hover:bg-brand-sand-100">Our Services</a>
             <a href="/about" className="block p-3 text-[1.06rem] font-medium text-brand-ink-soft rounded-brand-sm hover:bg-brand-sand-100">About Us</a>
             <a href="/contact" className="block p-3 text-[1.06rem] font-medium text-brand-ink-soft rounded-brand-sm hover:bg-brand-sand-100">Contact</a>
-            <a href="tel:9045550100" className="inline-flex items-center justify-center min-h-[52px] w-full mt-2 font-semibold bg-brand-clay-600 hover:bg-brand-clay-700 text-white rounded-full text-center">
-              Call (904) 555-0100
+            <a href="tel:9048726116" className="inline-flex items-center justify-center min-h-[52px] w-full mt-2 font-semibold bg-brand-clay-600 hover:bg-brand-clay-700 text-white rounded-full text-center">
+              Call (904) 872-6116
             </a>
           </div>
         )}

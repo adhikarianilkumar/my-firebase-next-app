@@ -27,10 +27,10 @@ export default function NotFound() {
             Back to Home
           </a>
           <a 
-            href="tel:9045550100" 
+            href="tel:9048726116" 
             className="inline-flex items-center justify-center min-h-[52px] px-6 py-2.5 bg-brand-clay-600 hover:bg-brand-clay-700 text-white font-semibold text-step-minus-1 rounded-full shadow-brand-sm transition-all hover:-translate-y-0.5"
           >
-            📞 Call (904) 555-0100
+            📞 Call (904) 872-6116
           </a>
         </div>
 
