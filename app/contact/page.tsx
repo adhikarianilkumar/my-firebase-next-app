@@ -15,7 +15,7 @@ export default function ContactPage() {
               <div className="space-y-6">
                 <div className="pb-4 border-b border-brand-line">
                   <span className="block text-[0.78rem] font-bold tracking-wider text-brand-muted uppercase mb-1">Phone Number</span>
-                  <a href="tel:9045550100" className="text-step-2 font-bold text-brand-clay-600 hover:text-brand-clay-700 hover:underline transition-colors">(904) 555-0100</a>
+                  <a href="tel:9048726116" className="text-step-2 font-bold text-brand-clay-600 hover:text-brand-clay-700 hover:underline transition-colors">(904) 872-6116</a>
                   <p className="text-step-minus-1 text-brand-muted m-0 mt-1">The fastest way to reach us.</p>
                 </div>
                 

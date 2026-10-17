@@ -2,12 +2,9 @@ import React from 'react';
 
 export default function ServicesPage() {
   const serviceCards = [
-    { id: "skilled", title: "Skilled Homecare", desc: "Clinical care delivered in the home by licensed professionals, coordinated with your physician.", items: ["Nursing care and assessments", "Wound care management", "Medication administration and teaching", "IV therapy monitoring", "Catheter care and management", "Disease management education (Diabetes, Cardiac, Respiratory)"], isClay: false },
-    { id: "personal", title: "Personal Care", desc: "Respectful, hands-on help with the daily tasks that keep dignity and independence intact.", items: ["Bathing, grooming and hygiene", "Dressing and mobility assistance", "Fall-prevention support"], isClay: true },
-    { id: "daily", title: "Daily Living & Homemaking", desc: "Keeping the household running so home stays comfortable and safe.", items: ["Meal preparation", "Light housekeeping and laundry", "Grocery shopping and errands"], isClay: false },
-    { id: "companionship", title: "Companionship", desc: "Isolation affects health as much as any diagnosis. Company matters.", items: ["Conversation and social support", "Recreational activities and hobbies", "Appointment accompaniment"], isClay: false },
-    { id: "recovery", title: "Post-Hospital / Recovery Support", desc: "The weeks after discharge are when readmission risk is highest. We help you through them.", items: ["Medication reminders", "Monitoring for changes in condition", "Assistance with rest, mobility and routines"], isClay: false },
-    { id: "respite", title: "Respite Care", desc: "Family caregivers need rest too. Taking a break is not giving up.", items: ["Short-term relief for family caregivers", "Flexible daytime, evening and weekend coverage"], isClay: false }
+    { id: "skilled", title: "Homemaker services", desc: "Meaningful support for everyday living.", items: ["Housekeeping", "Meal planning and preparation", "Shopping assistance", "Routine household activities"], isClay: true },
+    { id: "companionship", title: "Companionship", desc: "Isolation affects health as much as any diagnosis. Company matters.", items: ["Conversation and social support", "Accompaniment during community outings", "Accompaniment to appointments", "Verbal reminders for appointments"], isClay: true },
+    { id: "personal", title: "Limitations ", desc: "We DO NOT provide transportation or hands-on personal care, such as the following", items: ["Bathing, grooming and hygiene", "Dressing and mobility assistance", "Fall-prevention support", "Eating assistance", "Ambulation", "Physical transfers or medication administration"], isClay: false },
   ];
 
   return (
@@ -17,8 +14,8 @@ export default function ServicesPage() {
         {/* Banner Section Head */}
         <div className="max-w-[760px] mx-auto text-center mb-12">
           <span className="eyebrow block font-bold tracking-widest text-[0.8rem] text-brand-clay-700 uppercase mb-2">Our Services</span>
-          <h1 className="text-step-4 font-display font-bold text-brand-ink-dark mb-4">Skilled and everyday care from one trusted team</h1>
-          <p className="text-step-1 text-brand-ink-soft leading-relaxed">We offer skilled nursing care and home health services designed to meet clients where they are and support daily life with comfort and compassion.</p>
+          <h1 className="text-step-4 font-display font-bold text-brand-ink-dark mb-4">Homemaker and companionship services from one trusted team</h1>
+          <p className="text-step-1 text-brand-ink-soft leading-relaxed">We offer support for everyday living and social interaction to help you maintain your independence and quality of life.</p>
         </div>
 
         {/* Thick Vertical Accent Service Listing Stack */}
@@ -57,9 +54,6 @@ export default function ServicesPage() {
             {[
               { h: "Seniors wishing to age in place", p: "Staying home should not mean managing alone." },
               { h: "Adults recovering from surgery", p: "Extra support through the weeks that matter most." },
-              { h: "Individuals with mobility challenges", p: "Practical help that reduces fall risk and restores confidence." },
-              { h: "People managing chronic conditions", p: "Consistent monitoring and education, coordinated with your doctor." },
-              { h: "Families needing reliable caregiver support", p: "Dependable coverage you can actually plan around." }
             ].map((situ, idx) => (
               <div key={idx} className="bg-white p-6 rounded-brand-md border border-brand-line shadow-brand-sm">
                 <h4 className="text-step-0 font-body font-bold text-brand-ink-dark mb-2">{situ.h}</h4>
@@ -72,8 +66,8 @@ export default function ServicesPage() {
                 <h4 className="text-step-0 font-body font-bold text-white mb-2">Not sure where you fit?</h4>
                 <p className="text-step-minus-1 text-white/90 m-0 leading-relaxed">Call us. A short conversation usually makes the answer clear — and it costs nothing.</p>
               </div>
-              <a href="tel:9045550100" className="mt-4 block text-center font-bold text-step-minus-1 tracking-wider uppercase underline text-white hover:text-brand-sand-50">
-                Call (904) 555-0100
+              <a href="tel:9048726116" className="mt-4 block text-center font-bold text-step-minus-1 tracking-wider uppercase underline text-white hover:text-brand-sand-50">
+                Call (904) 872-6116
               </a>
             </div>
           </div>

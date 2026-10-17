@@ -19,20 +19,22 @@ export default function AboutPage() {
           <div className="md:col-span-7 space-y-4">
             <h2 className="text-step-3 font-display font-bold text-brand-ink-dark mb-4">A community-focused agency</h2>
             <p className="text-step-0 text-brand-ink-soft leading-relaxed max-w-[68ch]">
-              Optimal Homecare Services is a community-focused home-care agency dedicated to serving families throughout Clay County, Florida. We provide person-centered, flexible and reliable in-home support for seniors, individuals recovering after hospital stays, and adults living with chronic conditions.
+              Optimal Homecare Services LLC provides homemaker and companion services that help seniors and adults maintain independence, dignity, and quality of life in the comfort of home. Our Personal Support Associates are carefully selected and committed to providing dependable, compassionate, and respectful support.
             </p>
             <p className="text-step-0 text-brand-ink-soft leading-relaxed max-w-[68ch]">
-              We are local. Our caregivers live in the communities they serve — they know the neighbourhoods, the hospitals, and the families. That familiarity makes reliable scheduling and genuine continuity of care possible.
+              We are local. Our staff live in the communities they serve. That familiarity makes reliable scheduling and genuine support possible.
             </p>
           </div>
           
           <div id="mission" className="md:col-span-5 bg-white p-6 md:p-8 rounded-brand-md border border-brand-line border-t-5 border-t-brand-clay-600 shadow-brand-sm scroll-mt-28">
             <h3 className="text-[0.82rem] font-bold tracking-wider text-brand-clay-700 uppercase mb-3">Our Mission</h3>
-            <p className="text-step-1 font-display font-semibold text-brand-ink-dark leading-snug mb-3">
-              At Optimal Homecare Services LLC, our mission is to enhance quality of life and improve health outcomes through compassionate, high-quality skilled and supportive home care.
+            <p className="font-display text-brand-ink-dark leading-snug mb-3">
+              At Optimal Homecare Services LLC, our mission is to enhance quality of life through compassionate, consistent support at home.
             </p>
-            <p className="text-step-minus-1 text-brand-ink-soft leading-relaxed m-0">
-              We provide individualized clinical and supportive services that empower clients to remain safe, independent and comfortable in their homes — while maintaining the highest standards of professionalism, integrity and respect.
+
+            <h3 className="text-[0.82rem] font-bold tracking-wider text-brand-clay-700 uppercase mb-3">Our Values</h3>
+            <p className="font-display text-brand-ink-dark leading-snug mb-3">
+              We are commited to integrity, respect, and excellence in every interaction, ensuring that our clients and their families feel valued and supported.
             </p>
           </div>
         </div>
@@ -45,11 +47,13 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { t: "Local Caregivers", d: "People who understand Clay County communities, because they live here." },
-              { t: "Personalized Care Plans", d: "Tailored to individual needs, built in the home, revisited as things change." },
-              { t: "Consistent Communication", d: "With families and health providers, so nobody is left guessing." },
-              { t: "Flexible Scheduling", d: "From a few hours a week to full-time support, adjusted as needs shift." },
-              { t: "Screened Professionals", d: "Committed to safety and respect, verified before they ever enter your home." },
+              { t: "Personal Support Associates", d: "People who understand Clay County communities, because they live here." },
+              { t: "Consistent Communication", d: "With families, so nobody is left guessing." },
+              { t: "Flexible Scheduling", d: "From a few hours a week to full-time support, adjusted as preferences shift." },
+              { t: "Screened Professionals", d: (<>
+                          "Committed to safety and respect, verified before they ever enter your home. Please see the link to the Care Provider Background Screening Clearinghouse: 
+                          <a href='https://info.flclearinghouse.com' className='inline-flex items-center justify-center min-h-[52px] w-full mt-2 font-semibold bg-brand-clay-600 hover:bg-brand-clay-700 text-white rounded-full text-center' target='_blank' rel='noopener noreferrer'>https://info.flclearinghouse.com</a>
+                          </>) },
               { t: "Dignity, Always", d: "Care delivered the way we would want it delivered to our own families." }
             ].map((commit, i) => (
               <div key={i} className="bg-white p-6 rounded-brand-md border border-brand-line shadow-brand-sm">
@@ -71,7 +75,7 @@ export default function AboutPage() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-step-minus-1">
             {[
-              "Background checks on every caregiver, before placement",
+              "Level II background checks on every personal support associate, before placement",
               "Ongoing training and competency verification",
               "Active supervision by care coordinators, not just at intake",
               "Recognized care standards applied consistently",

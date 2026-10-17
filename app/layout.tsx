@@ -25,16 +25,15 @@ export default function RootLayout({ children } : LayoutProps<"/">) {
               
               <div className="space-y-4">
                 <div className="text-white font-display text-[1.1rem] font-semibold">Optimal Homecare</div>
-                <p className="text-white/70 max-w-[280px]">Skilled nursing and non-medical in-home care for seniors and adults across Clay County, Florida.</p>
+                <p className="text-white/70 max-w-[280px]">Homemaker and companion services for everyday living.</p>
               </div>
 
               <div>
                 <h4 className="text-white text-[0.82rem] font-bold uppercase tracking-wider mb-4">Our Services</h4>
                 <ul className="space-y-2.5 list-none p-0 m-0">
-                  <li><a href="/services#skilled" className="text-white/80 no-underline hover:text-white hover:underline">Skilled Homecare</a></li>
-                  <li><a href="/services#personal" className="text-white/80 no-underline hover:text-white hover:underline">Personal Care</a></li>
-                  <li><a href="/services#daily" className="text-white/80 no-underline hover:text-white hover:underline">Daily Living & Homemaking</a></li>
+                  <li><a href="/services#skilled" className="text-white/80 no-underline hover:text-white hover:underline">Homemaker services</a></li>
                   <li><a href="/services#companionship" className="text-white/80 no-underline hover:text-white hover:underline">Companionship</a></li>
+                  <li><a href="/services#personal" className="text-white/80 no-underline hover:text-white hover:underline">Limitations </a></li>
                 </ul>
               </div>
 
@@ -52,7 +51,7 @@ export default function RootLayout({ children } : LayoutProps<"/">) {
                 <h4 className="text-white text-[0.82rem] font-bold uppercase tracking-wider mb-4">Get In Touch</h4>
                 <ul className="space-y-3 list-none p-0 m-0">
                   <li className="text-white font-semibold text-[1.05rem]">
-                    📞 <a href="tel:9045550100" className="hover:underline hover:text-white">(904) 555-0100</a>
+                    📞 <a href="tel:9048726116" className="hover:underline hover:text-white">(904) 872-6116</a>
                   </li>
                   <li className="break-all">✉️ info@optimalhomecareservices.com</li>
                   <li>📍 Clay County, Florida</li>
@@ -74,8 +73,8 @@ export default function RootLayout({ children } : LayoutProps<"/">) {
 
         {/* Floating Mobile Sticky Footer Call Button */}
         <div className="block md:hidden fixed left-0 right-0 bottom-0 z-50 px-4 py-3 bg-brand-sand-50/96 backdrop-blur-md border-t border-brand-line shadow-brand-md">
-          <a href="tel:9045550100" className="flex items-center justify-center min-h-[52px] w-full text-step-0 font-bold bg-brand-clay-600 text-white rounded-full no-underline shadow-brand-sm">
-            📞 Call Now: (904) 555-0100
+          <a href="tel:9048726116" className="flex items-center justify-center min-h-[52px] w-full text-step-0 font-bold bg-brand-clay-600 text-white rounded-full no-underline shadow-brand-sm">
+            📞 Call Now: (904) 872-6116
           </a>
         </div>
 

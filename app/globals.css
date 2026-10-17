@@ -56,6 +56,10 @@
     color: var(--color-brand-ink-dark);
     text-wrap: balance;
   }
+
+  /* p {
+    text-align: justify;
+  } */
 }
 
 @layer utilities {
