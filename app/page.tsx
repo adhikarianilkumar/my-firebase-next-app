@@ -34,7 +34,7 @@ export default function HomePage() {
               <div className="relative aspect-[7/4] bg-brand-sand-100 rounded-brand-lg border-6 border-white shadow-brand-lg bg-[radial-gradient(closest-side_at_36%_30%,rgba(200,122,81,0.1),transparent_100%)]">
                 <Image
                   src="/images/Compassionate-Home-Care-Connection.png"
-                  alt="Optimal Homecare Services caregiver providing companionship to a senior"
+                  alt="Optimal Homecare Services staff providing companionship to a senior"
                   fill
                   priority
                   loading="eager"
