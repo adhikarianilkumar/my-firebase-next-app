@@ -4,7 +4,7 @@ export default function ServicesPage() {
   const serviceCards = [
     { id: "skilled", title: "Homemaker services", desc: "Meaningful support for everyday living.", items: ["Housekeeping", "Meal planning and preparation", "Shopping assistance", "Routine household activities"], isClay: true },
     { id: "companionship", title: "Companionship", desc: "Isolation affects health as much as any diagnosis. Company matters.", items: ["Conversation and social support", "Accompaniment during community outings", "Accompaniment to appointments", "Verbal reminders for appointments"], isClay: true },
-    { id: "personal", title: "Limitations ", desc: "We DO NOT provide transportation or hands-on personal care, such as the following", items: ["Bathing, grooming and hygiene", "Dressing and mobility assistance", "Fall-prevention support", "Eating assistance", "Ambulation", "Physical transfers or medication administration"], isClay: false },
+    { id: "personal", title: "Limitations ", desc: "We DO NOT provide transportation or hands-on personal care, such as the following", items: ["Bathing, grooming, or hygiene", "Dressing", "Fall-prevention support", "Eating assistance", "Ambulation or mobility assistance", "Physical transfers or medication administration"], isClay: false },
   ];
 
   return (

@@ -1,29 +1,47 @@
 @import "tailwindcss";
 
 @theme {
-  /* Brand Typography Fonts */
-  --font-display: "Source Serif 4", "Iowan Old Style", Georgia, "Times New Roman", serif;
-  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  /* Brand Typography */
+  --font-display: "Source Serif 4", "Iowan Old Style", Georgia,
+    "Times New Roman", serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
 
-  /* Warm, High-Contrast Premium Neutrals (Completely Non-Clinical) */
-  --color-brand-ink-dark: #12181a;     /* Headers & Important Elements */
-  --color-brand-ink: #1c2224;          /* Main Text Base */
-  --color-brand-ink-soft: #40474a;     /* Body Text (Exceeds WCAG Contrast Scales) */
-  --color-brand-muted: #646e73;        /* Sub-labels */
-  --color-brand-line: #e2e8f0;         /* Soft Section Dividers */
+  /* Brand Neutrals — Cool, Clean, and Accessible */
+  --color-brand-ink-dark: #10243a;
+  --color-brand-ink: #203448;
+  --color-brand-ink-soft: #43576a;
+  --color-brand-muted: #66798b;
+  --color-brand-line: #dce6ef;
 
-  /* Warm Accent Clay Tones (Human & Welcoming) */
-  --color-brand-clay-700: #9c4f2c;
-  --color-brand-clay-600: #b5613a;     /* Primary Call-to-Action Buttons */
-  --color-brand-clay-500: #c87a51;
-  --color-brand-clay-100: #f7e7de;
+  /* Primary Brand Blue — Trust, Care, and Professionalism */
+  --color-brand-blue-900: #063b82;
+  --color-brand-blue-800: #064da8;
+  --color-brand-blue-700: #075fc7;
+  --color-brand-blue-600: #0878de;
+  --color-brand-blue-500: #1597f2;
+  --color-brand-blue-100: #e5f3ff;
 
-  /* Background Warm Sand Tones (Soft Ivory Canvas) */
-  --color-brand-sand-50: #fdfbf8;      /* Root App Background */
-  --color-brand-sand-100: #f7f2ea;     /* Alternating Strip Backgrounds */
-  --color-brand-sand-200: #ece4d8;
+  /* Secondary Brand Green — Health, Growth, and Wellness */
+  --color-brand-green-900: #07552b;
+  --color-brand-green-800: #087032;
+  --color-brand-green-700: #168b20;
+  --color-brand-green-600: #2bb80e;
+  --color-brand-green-500: #55d412;
+  --color-brand-green-100: #eaf9df;
 
-  /* Fluid Readability Type Scales for Older Hands/Eyes */
+  /* Compatibility Tokens — Existing Clay Classes Now Use Blue */
+  --color-brand-clay-700: #075fc7;
+  --color-brand-clay-600: #0878de;
+  --color-brand-clay-500: #1597f2;
+  --color-brand-clay-100: #e5f3ff;
+
+  /* Cool Neutral Backgrounds */
+  --color-brand-sand-50: #fbfdff;
+  --color-brand-sand-100: #f1f7fc;
+  --color-brand-sand-200: #e3edf5;
+
+  /* Fluid Typography — Preserve Existing Readability */
   --text-step-minus-1: clamp(0.94rem, 0.92rem + 0.1vw, 1rem);
   --text-step-0: clamp(1.06rem, 1.02rem + 0.2vw, 1.16rem);
   --text-step-1: clamp(1.25rem, 1.18rem + 0.35vw, 1.45rem);
@@ -36,10 +54,18 @@
   --radius-brand-md: 14px;
   --radius-brand-lg: 22px;
 
-  /* Elevation Shadows */
-  --shadow-brand-sm: 0 1px 2px rgba(18, 24, 26, 0.04), 0 2px 6px rgba(18, 24, 26, 0.04);
-  --shadow-brand-md: 0 4px 10px rgba(18, 24, 26, 0.06), 0 12px 28px rgba(18, 24, 26, 0.06);
-  --shadow-brand-lg: 0 10px 24px rgba(18, 24, 26, 0.08), 0 28px 60px rgba(18, 24, 26, 0.08);
+  /* Cool, Subtle Elevation Shadows */
+  --shadow-brand-sm:
+    0 1px 2px rgba(16, 36, 58, 0.04),
+    0 2px 6px rgba(16, 36, 58, 0.04);
+
+  --shadow-brand-md:
+    0 4px 10px rgba(16, 36, 58, 0.06),
+    0 12px 28px rgba(16, 36, 58, 0.06);
+
+  --shadow-brand-lg:
+    0 10px 24px rgba(16, 36, 58, 0.08),
+    0 28px 60px rgba(16, 36, 58, 0.08);
 }
 
 @layer base {
