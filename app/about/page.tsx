@@ -51,10 +51,10 @@ export default function AboutPage() {
               { t: "Consistent Communication", d: "With families, so nobody is left guessing." },
               { t: "Flexible Scheduling", d: "From a few hours a week to full-time support, adjusted as preferences shift." },
               { t: "Screened Professionals", d: (<>
-                          "Committed to safety and respect, verified before they ever enter your home. Please see the link to the Care Provider Background Screening Clearinghouse: 
+                          Committed to safety and respect, verified before they ever enter your home. Please see the link to the Care Provider Background Screening Clearinghouse: 
                           <a href='https://info.flclearinghouse.com' className='inline-flex items-center justify-center min-h-[52px] w-full mt-2 font-semibold bg-brand-clay-600 hover:bg-brand-clay-700 text-white rounded-full text-center' target='_blank' rel='noopener noreferrer'>https://info.flclearinghouse.com</a>
                           </>) },
-              { t: "Dignity, Always", d: "Care delivered the way we would want it delivered to our own families." }
+              { t: "Dignity, Always", d: "Support delivered the way we would want it delivered to our own families." }
             ].map((commit, i) => (
               <div key={i} className="bg-white p-6 rounded-brand-md border border-brand-line shadow-brand-sm">
                 <h4 className="text-step-1 font-body font-bold text-brand-ink-dark mb-2">{commit.t}</h4>
