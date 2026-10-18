@@ -53,7 +53,7 @@ export default function RootLayout({ children } : LayoutProps<"/">) {
                   <li className="text-white font-semibold text-[1.05rem]">
                     📞 <a href="tel:9048726116" className="hover:underline hover:text-white">(904) 872-6116</a>
                   </li>
-                  <li className="break-all">✉️ info@optimalhomecareservices.com</li>
+                  <li className="break-all"><a href="mailto:info@optimalhomecareservices.com" className="hover:underline hover:text-white">✉️info@optimalhomecareservices.com</a></li>
                   <li>📍 Clay County, Florida</li>
                 </ul>
               </div>
