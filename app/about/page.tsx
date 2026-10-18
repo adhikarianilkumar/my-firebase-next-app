@@ -10,7 +10,7 @@ export default function AboutPage() {
           <span className="eyebrow block font-bold tracking-widest text-[0.8rem] text-brand-clay-700 uppercase mb-2">About Us</span>
           <h1 className="text-step-4 font-display font-bold text-brand-ink-dark mb-4">Home is more than a place</h1>
           <p className="text-step-2 font-display text-brand-clay-700 leading-relaxed font-medium">
-            It's comfort, identity and dignity. Our mission is to make staying home safer, easier and more joyful for every person we serve.
+            It's comfort, identity, and dignity. Our mission is to make staying home safer, easier, and more joyful for every person we serve.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export default function AboutPage() {
           <div className="max-w-[760px] mx-auto text-center mb-10">
             <h2 className="text-step-3 font-display font-bold text-white mb-3">Trust is earned before the first visit</h2>
             <p className="text-step-0 text-white/80 m-0 leading-relaxed">
-              All staff will undergo level II background checks, training and ongoing supervision. We follow recognized homemaker and companion service standards.
+              All staff will undergo level II background checks, training, and ongoing supervision. We follow recognized homemaker and companion service standards.
             </p>
           </div>
           
