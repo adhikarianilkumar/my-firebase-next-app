@@ -16,7 +16,7 @@ export default function HomePage() {
                 Safe, dependable support — <span className="text-brand-clay-600 block sm:inline">right at home.</span>
               </h1>
               <p className="text-step-1 text-brand-ink-soft max-w-[46ch] mx-auto lg:mx-0 mb-6 leading-relaxed">
-                We provide home-based support for seniors and adults. We help you or your loved one live comfortably, confidently and independently at home.
+                We provide home-based support for seniors and adults. We help you or your loved one live comfortably, confidently, and independently at home.
               </p>
               
               <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
@@ -67,7 +67,7 @@ export default function HomePage() {
         <div className="wrap">
           <div className="text-center mb-12 max-w-[760px] mx-auto">
             <h2 className="text-step-3 font-display font-bold text-brand-ink-dark mb-3">Homemaker and companion support built around the person, not the schedule</h2>
-            <p className="text-brand-ink-soft text-step-0">We believe home is more than a place — it's comfort, identity and dignity.</p>
+            <p className="text-brand-ink-soft text-step-0">We believe home is more than a place — it's comfort, identity, and dignity.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -77,7 +77,7 @@ export default function HomePage() {
               { title: "Consistent Communication", text: "Families stay informed. No wondering whether the visit happened or how it went." },
               { title: "Flexible Scheduling", text: "From a few hours a week to full-time support, including evenings and weekends." },
               { title: "Trusted, Screened Professionals", text: "Level II background checks, training and ongoing supervision for every personal support associate, without exception." },
-              { title: "Scope of Support", text: "Social engagement, meal planning and preparation, light house keeping, and acompaniment to appointments and community outings." }
+              { title: "Scope of Support", text: "Social engagement, meal planning and preparation, light housekeeping, and acompaniment to appointments and community outings." }
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 rounded-brand-md border border-brand-line shadow-brand-sm hover:shadow-brand-md transition-all">
                 <h3 className="text-step-1 font-bold text-brand-ink-dark mb-2 flex items-center">

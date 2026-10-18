@@ -10,7 +10,7 @@ export default function AboutPage() {
           <span className="eyebrow block font-bold tracking-widest text-[0.8rem] text-brand-clay-700 uppercase mb-2">About Us</span>
           <h1 className="text-step-4 font-display font-bold text-brand-ink-dark mb-4">Home is more than a place</h1>
           <p className="text-step-2 font-display text-brand-clay-700 leading-relaxed font-medium">
-            It's comfort, identity and dignity. Our mission is to make staying home safer, easier and more joyful for every person we serve.
+            It's comfort, identity, and dignity. Our mission is to make staying home safer, easier, and more joyful for every person we serve.
           </p>
         </div>
 
@@ -51,10 +51,10 @@ export default function AboutPage() {
               { t: "Consistent Communication", d: "With families, so nobody is left guessing." },
               { t: "Flexible Scheduling", d: "From a few hours a week to full-time support, adjusted as preferences shift." },
               { t: "Screened Professionals", d: (<>
-                          "Committed to safety and respect, verified before they ever enter your home. Please see the link to the Care Provider Background Screening Clearinghouse: 
+                          Committed to safety and respect, verified before they ever enter your home. Please see the link to the Care Provider Background Screening Clearinghouse: 
                           <a href='https://info.flclearinghouse.com' className='inline-flex items-center justify-center min-h-[52px] w-full mt-2 font-semibold bg-brand-clay-600 hover:bg-brand-clay-700 text-white rounded-full text-center' target='_blank' rel='noopener noreferrer'>https://info.flclearinghouse.com</a>
                           </>) },
-              { t: "Dignity, Always", d: "Care delivered the way we would want it delivered to our own families." }
+              { t: "Dignity, Always", d: "Support delivered the way we would want it delivered to our own families." }
             ].map((commit, i) => (
               <div key={i} className="bg-white p-6 rounded-brand-md border border-brand-line shadow-brand-sm">
                 <h4 className="text-step-1 font-body font-bold text-brand-ink-dark mb-2">{commit.t}</h4>
@@ -69,7 +69,7 @@ export default function AboutPage() {
           <div className="max-w-[760px] mx-auto text-center mb-10">
             <h2 className="text-step-3 font-display font-bold text-white mb-3">Trust is earned before the first visit</h2>
             <p className="text-step-0 text-white/80 m-0 leading-relaxed">
-              All staff will undergo level II background checks, training and ongoing supervision. We follow recognized homemaker and companion service standards.
+              All staff will undergo level II background checks, training, and ongoing supervision. We follow recognized homemaker and companion service standards.
             </p>
           </div>
           
