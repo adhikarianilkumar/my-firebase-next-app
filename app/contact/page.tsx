@@ -21,7 +21,7 @@ export default function ContactPage() {
                 
                 <div className="pb-4 border-b border-brand-line">
                   <span className="block text-[0.78rem] font-bold tracking-wider text-brand-muted uppercase mb-1">Email Address</span>
-                  <a href="mailto:info@optimalhomecareservices.com" className="text-step-0 font-semibold text-brand-ink-dark break-all hover:text-brand-clay-600 transition-colors">info@optimalhomecareservices.com</a>
+                  <a href="mailto:info@optimalhomecareservices.com" className="text-step-minus-1 font-semibold text-brand-ink-dark break-all hover:text-brand-clay-600 transition-colors">info@optimalhomecareservices.com</a>
                   <p className="text-step-minus-1 text-brand-muted m-0 mt-1">We reply within 1-2 business days.</p>
                 </div>
 
