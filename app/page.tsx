@@ -1,4 +1,4 @@
-import React from 'react';
+import Image from 'next/image';
 
 export default function HomePage() {
   return (
@@ -30,8 +30,23 @@ export default function HomePage() {
             </div>
 
             {/* Graphic Media Placeholder Box */}
-            <div className="lg:col-span-5 hidden lg:block">
-              <div className="relative aspect-[6/5] bg-brand-sand-100 rounded-brand-lg border-6 border-white shadow-brand-lg bg-[radial-gradient(closest-side_at_36%_30%,rgba(200,122,81,0.1),transparent_100%)]">
+            <div className="lg:col-span-5 lg:block">
+              <div className="relative aspect-[7/4] bg-brand-sand-100 rounded-brand-lg border-6 border-white shadow-brand-lg bg-[radial-gradient(closest-side_at_36%_30%,rgba(200,122,81,0.1),transparent_100%)]">
+                <Image
+                  src="/images/Compassionate_Home_Care_Connection.png"
+                  alt="Optimal Homecare Services caregiver providing companionship to a senior"
+                  fill
+                  priority
+                  loading="eager"
+                  sizes="(max-width: 480px) 100vw,
+                        (max-width: 768px) 80vw,
+                        410px"
+                  style={{
+                    objectFit: "cover",
+                    objectPosition: "center",
+                    borderRadius: "15px",
+                  }}
+                />
                 <div className="absolute -bottom-[14px] -right-[14px] w-[58%] h-[58%] border-2 border-brand-clay-500 rounded-brand-lg opacity-35 z-[-1]" />
               </div>
             </div>
