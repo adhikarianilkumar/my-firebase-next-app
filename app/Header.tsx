@@ -1,6 +1,9 @@
 "use client";
 
 import React, { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -16,9 +19,17 @@ export default function Header() {
           <div className="flex items-center justify-between min-h-[78px] py-2">
             
             <a href="/" className="inline-flex items-center gap-3 no-underline text-brand-ink-dark">
+              <Image
+                src="/images/optimal-homecare-emblem.svg"
+                alt="Optimal Homecare Services"
+                width={50}
+                height={50}
+                priority
+              />
+              
               <div className="flex flex-col line-height-[1.12]">
-                <span className="font-display text-[1.16rem] font-semibold tracking-tight">Optimal Homecare</span>
-                <span className="text-[0.7rem] tracking-wider uppercase font-semibold text-brand-clay-700">Compassionate Homemaker and Companion services</span>
+                <span className="font-display text-[1.16rem] font-semibold tracking-tight">Optimal Homecare Services</span>
+                {/* <span className="text-[0.7rem] tracking-wider uppercase font-semibold text-brand-clay-700">Compassionate Homemaker and Companion services</span> */}
               </div>
             </a>
 

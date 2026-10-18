@@ -10,13 +10,13 @@ export default function HomePage() {
             
             <div className="lg:col-span-7 text-center lg:text-left">
               <span className="eyebrow inline-block font-bold tracking-widest text-[0.8rem] text-brand-clay-700 uppercase mb-2">
-                Serving Clay County & Northeast Florida
+                Serving Clay County and Neighboring Communities in Northeast Florida
               </span>
               <h1 className="text-step-4 font-display font-bold text-brand-ink-dark leading-tight mb-4">
                 Safe, dependable support — <span className="text-brand-clay-600 block sm:inline">right at home.</span>
               </h1>
               <p className="text-step-1 text-brand-ink-soft max-w-[46ch] mx-auto lg:mx-0 mb-6 leading-relaxed">
-                Home-based support for seniors and adults across Clay County and neighboring counties. We help you or your loved one live comfortably, confidently and independently at home.
+                We provide home-based support for seniors and adults. We help you or your loved one live comfortably, confidently and independently at home.
               </p>
               
               <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
@@ -33,7 +33,7 @@ export default function HomePage() {
             <div className="lg:col-span-5 lg:block">
               <div className="relative aspect-[7/4] bg-brand-sand-100 rounded-brand-lg border-6 border-white shadow-brand-lg bg-[radial-gradient(closest-side_at_36%_30%,rgba(200,122,81,0.1),transparent_100%)]">
                 <Image
-                  src="/images/Compassionate_Home_Care_Connection.png"
+                  src="/images/Compassionate-Home-Care-Connection.png"
                   alt="Optimal Homecare Services caregiver providing companionship to a senior"
                   fill
                   priority
@@ -72,7 +72,7 @@ export default function HomePage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { title: "Personal Support Associates", text: "Our team lives and works here. They know Clay County communities, the hospitals, and the roads between them." },
+              { title: "Personal Support Associates", text: "Our team lives and works here. They know Clay County and neighboring communities." },
               { title: "Home-Based Support Plans", text: "Support is provided in the home, around real routines and preferences — then adjusted whenever needs change." },
               { title: "Consistent Communication", text: "Families stay informed. No wondering whether the visit happened or how it went." },
               { title: "Flexible Scheduling", text: "From a few hours a week to full-time support, including evenings and weekends." },
