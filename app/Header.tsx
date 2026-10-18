@@ -1,7 +1,6 @@
 "use client";
 
-import React, { useState } from 'react';
-import Link from 'next/link';
+import { useState } from 'react';
 import Image from 'next/image';
 
 
@@ -15,6 +14,11 @@ export default function Header() {
       </a>
 
       <header className="sticky top-0 z-50 bg-brand-sand-50/92 backdrop-blur-md border-b border-brand-line">
+
+        <p className="mx-auto max-w-7xl text-center text-xs leading-relaxed">
+          Images are AI-generated for illustrative purposes.
+        </p>
+
         <div className="wrap">
           <div className="flex items-center justify-between min-h-[78px] py-2">
             
@@ -25,6 +29,11 @@ export default function Header() {
                 width={50}
                 height={50}
                 priority
+                style={{
+                    height: "50px",
+                    width: "50px",
+                    objectFit: "contain",
+                  }}
               />
               
               <div className="flex flex-col line-height-[1.12]">
