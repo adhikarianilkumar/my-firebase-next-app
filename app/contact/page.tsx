@@ -37,7 +37,7 @@ export default function ContactPage() {
             </div>
             
             <div className="mt-8 pt-6 border-t border-brand-line text-step-minus-1 text-brand-ink-soft italic leading-relaxed">
-              Your comfort, dignity and independence come first. One phone call is all it takes to get started.
+              Your comfort, dignity, and independence come first. One phone call is all it takes to get started.
             </div>
           </div>
 
@@ -51,7 +51,7 @@ export default function ContactPage() {
                 { s: "Consultation", d: "A 15-minute phone conversation." },
                 { s: "Intake Appointment", d: "A support coordinator schedules an interview to review the client's needs and preferences." },
                 { s: "Support Staff Match", d: "We pair clients with trained staff whose skills and personality fit their support needs." },
-                { s: "Support Begins", d: "Services are delivered with respect, reliability and compassion." },
+                { s: "Support Begins", d: "Services are delivered with respect, reliability, and compassion." },
                 { s: "Ongoing Support", d: "We maintain communication and make adjustments whenever support needs change." }
               ].map((step, idx) => (
                 <div key={idx} className="relative">
