@@ -47,6 +47,7 @@ export default function Header() {
               <a href="/services" className="px-3 py-2 text-step-minus-1 font-medium text-brand-ink-soft no-underline hover:text-brand-ink-dark hover:bg-brand-sand-100 rounded-brand-sm">Our Services</a>
               <a href="/about" className="px-3 py-2 text-step-minus-1 font-medium text-brand-ink-soft no-underline hover:text-brand-ink-dark hover:bg-brand-sand-100 rounded-brand-sm">About Us</a>
               <a href="/contact" className="px-3 py-2 text-step-minus-1 font-medium text-brand-ink-soft no-underline hover:text-brand-ink-dark hover:bg-brand-sand-100 rounded-brand-sm">Contact</a>
+              <a href="/careers" className="px-3 py-2 text-step-minus-1 font-medium text-brand-ink-soft no-underline hover:text-brand-ink-dark hover:bg-brand-sand-100 rounded-brand-sm">Careers</a>
             </nav>
 
             <div className="hidden md:flex items-center">
@@ -71,6 +72,7 @@ export default function Header() {
             <a href="/" className="block p-3 text-[1.06rem] font-medium text-brand-ink-soft rounded-brand-sm hover:bg-brand-sand-100">Home</a>
             <a href="/services" className="block p-3 text-[1.06rem] font-medium text-brand-ink-soft rounded-brand-sm hover:bg-brand-sand-100">Our Services</a>
             <a href="/about" className="block p-3 text-[1.06rem] font-medium text-brand-ink-soft rounded-brand-sm hover:bg-brand-sand-100">About Us</a>
+            <a href="/careers" className="block p-3 text-[1.06rem] font-medium text-brand-ink-soft rounded-brand-sm hover:bg-brand-sand-100">Careers</a>
             <a href="/contact" className="block p-3 text-[1.06rem] font-medium text-brand-ink-soft rounded-brand-sm hover:bg-brand-sand-100">Contact</a>
             <a href="tel:9048726116" className="inline-flex items-center justify-center min-h-[52px] w-full mt-2 font-semibold bg-brand-clay-600 hover:bg-brand-clay-700 text-white rounded-full text-center">
               Call (904) 872-6116

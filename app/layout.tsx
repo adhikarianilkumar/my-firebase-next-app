@@ -63,6 +63,9 @@ export default function RootLayout({ children } : LayoutProps<"/">) {
                   <li>
                     <a href="/contact" className="text-white/80 no-underline hover:text-white hover:underline">Contact Us</a>
                   </li>
+                  <li>
+                    <a href="/careers" className="text-white/80 no-underline hover:text-white hover:underline">Careers</a>
+                  </li>
                 </ul>
               </div>
 
