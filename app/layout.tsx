@@ -92,7 +92,7 @@ export default function RootLayout({ children } : LayoutProps<"/">) {
                 <p>Optimal Homecare Services LLC is an equal-opportunity provider and employer.</p>
               </div>
               <div className="rounded border border-brand-ink-soft/40 bg-brand-ink/50 px-3 py-1.5 font-mono tracking-wider text-white/90">
-                Florida AHCA Licence #[ADD LICENCE NUMBER]
+                Florida Agency for Health Care Administration (AHCA): Registration #242388
               </div>
             </div>
           </div>

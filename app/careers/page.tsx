@@ -1,11 +1,11 @@
 
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Careers | Optimal Homecare Services LLC",
-  description:
-    "Explore career opportunities with Optimal Homecare Services. Join a team dedicated to compassionate homemaker and companion services.",
-};
+// export const metadata: Metadata = {
+//   title: "Careers | Optimal Homecare Services LLC",
+//   description:
+//     "Explore career opportunities with Optimal Homecare Services. Join a team dedicated to compassionate homemaker and companion services.",
+// };
 
 const careerPaths = [
   {
@@ -34,7 +34,7 @@ const careerPaths = [
     number: "03",
     title: "Administrative Support",
     description:
-      "Support the coordination and daily operations that help our homecare services run smoothly.",
+      "Support the coordination and daily operations that help our services run smoothly.",
     qualities: [
       "Organization and communication",
       "Professionalism and reliability",
@@ -66,7 +66,7 @@ const hiringSteps = [
 
 export default function CareersPage() {
   return (
-    <main className="bg-brand-sand-50 text-brand-ink">
+    <>
 
       {/* Hero */}
       <section className="relative overflow-hidden bg-brand-blue-900 text-white">
@@ -87,7 +87,7 @@ export default function CareersPage() {
             </h1>
 
             <p className="mt-6 max-w-xl text-step-0 leading-relaxed text-white/80">
-              Great care starts with great people. Join a team that values
+              Great services start with great people. Join a team that values
               compassion, respect, and the difference everyday support can
               make in someone's life.
             </p>
@@ -293,7 +293,7 @@ export default function CareersPage() {
           <div className="rounded-brand-lg border border-brand-line bg-brand-blue-100 p-8 sm:p-12">
             <div className="text-5xl" aria-hidden="true">🏡</div>
             <h3 className="mt-6 font-display text-step-2 font-bold text-brand-blue-900">
-              Care Begins at Home.
+              Support Begins at Home.
             </h3>
             <p className="mt-4 leading-relaxed text-brand-ink-soft">
               Small acts of kindness can have a lasting impact. Whether
@@ -379,6 +379,6 @@ export default function CareersPage() {
           </p>
         </div>
       </section>
-    </main>
+    </>
   );
 }
