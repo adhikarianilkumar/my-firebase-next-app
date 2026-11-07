@@ -23,7 +23,7 @@ export default function HomePage() {
                 <a href="tel:9048726116" className="inline-flex items-center justify-center min-h-[52px] px-6 py-3 font-semibold text-white bg-brand-clay-600 hover:bg-brand-clay-700 rounded-full shadow-brand-sm transition-all hover:-translate-y-0.5">
                   Call (904) 872-6116
                 </a>
-                <a href="/contact" className="inline-flex items-center justify-center min-h-[52px] px-6 py-3 font-semibold text-brand-ink-dark bg-white border-2 border-brand-line hover:bg-brand-sand-100 rounded-full transition-all hover:-translate-y-0.5">
+                <a href="/consultation" className="inline-flex items-center justify-center min-h-[52px] px-6 py-3 font-semibold text-brand-ink-dark bg-white border-2 border-brand-line hover:bg-brand-sand-100 rounded-full transition-all hover:-translate-y-0.5">
                   Request a consultation
                 </a>
               </div>
