@@ -3,24 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --experimental-https",
     "build": "next build",
     "start": "npx serve@latest out",
     "lint": "eslint",
     "serve": "npm run build && npx serve@latest out"
   },
   "dependencies": {
-    "next": "16.3.4",
-    "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "next": "16.4.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^26",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^10",
-    "eslint-config-next": "16.3.4",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^15.5.29",
     "tailwindcss": "^4",
     "typescript": "^7"
   }
