@@ -48,7 +48,7 @@ export default function ContactPage() {
             {/* Visual counter line connection path */}
             <div className="relative border-l-2 border-brand-line pl-8 ml-4 space-y-8">
               {[
-                { s: "Consultation", d: "A 15-minute phone conversation." },
+                { s: "Consultation", d: "A 15-minute phone or virtual meeting." },
                 { s: "Intake Appointment", d: "A support coordinator schedules an interview to review the client's needs and preferences." },
                 { s: "Support Staff Match", d: "We pair clients with trained staff whose skills and personality fit their support needs." },
                 { s: "Support Begins", d: "Services are delivered with respect, reliability, and compassion." },

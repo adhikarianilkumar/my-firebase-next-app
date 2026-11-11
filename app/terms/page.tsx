@@ -15,19 +15,19 @@ const paragraphClass =
 
 export default function TermsPage() {
   return (
-    <main className="min-h-screen bg-brand-sand-50 text-brand-ink">
-      <section className="bg-brand-blue-900 px-6 py-16 text-white sm:py-20">
+    <>
+      <section className="bg-white px-6 pt-10 pb-5 text-brand-ink-dark sm:pt-12 sm:pb-6">
         <div className="wrap mx-auto max-w-4xl">
           <h1 className="font-display text-step-4 font-bold">
             Terms of Use
           </h1>
-          <p className="mt-4 text-white/80">
+          <p className="mt-4 text-black">
             Effective 11/11/2026
           </p>
         </div>
       </section>
 
-      <section className="wrap mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+      <section className="wrap mx-auto max-w-4xl px-4 pt-6 pb-12 sm:px-6 sm:pt-8 sm:pb-16">
         <div className="space-y-10">
 
           {/* Introduction */}
@@ -326,6 +326,6 @@ info@optimalhomecareservices.com
 
         </div>
       </section>
-    </main>
+    </>
   );
 }
