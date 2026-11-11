@@ -17,38 +17,29 @@ const paragraphClass =
 
 export default function PrivacyPage() {
   return (
-    <main className="min-h-screen bg-brand-sand-50 text-brand-ink">
-
+    <>
       {/* Page Header */}
-      <section className="bg-brand-blue-900 px-6 py-16 text-white sm:py-20">
+      <section className="bg-white px-6 pt-10 pb-5 text-brand-ink-dark sm:pt-12 sm:pb-6">
         <div className="wrap mx-auto max-w-4xl">
-          <span className="text-sm font-semibold uppercase tracking-widest text-brand-green-500">
-            Legal Information
-          </span>
-
-          <h1 className="mt-4 font-display text-step-4 font-bold">
+          <h1 className="font-display text-step-4 font-bold">
             Privacy Policy
           </h1>
 
-          <p className="mt-4 text-step-1 font-semibold">
-            Optimal Homecare Services, LLC — Website Privacy Policy
-          </p>
-
-          <p className="mt-4 text-white/80">
-            Effective [EFFECTIVE DATE]
+          <p className="mt-4 text-black">
+            Effective 11/11/2026
           </p>
         </div>
       </section>
 
       {/* Policy Content */}
-      <section className="wrap mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+      <section className="wrap mx-auto max-w-4xl px-4 pt-6 pb-12 sm:px-6 sm:pt-8 sm:pb-16">
         <div className="space-y-10">
 
           {/* Introduction */}
           <p className="text-step-0 leading-relaxed text-brand-ink-soft">
             This Privacy Policy explains how Optimal Homecare Services,
             LLC ("OHS," "we," "us") collects, uses, shares, and protects
-            information through [WEBSITE ADDRESS] (the "Website") and
+            information through www.optimalhomecareservices.com (the "Website") and
             its online forms.{" "}
             <strong>We do not sell your personal information.</strong>
           </p>
@@ -246,9 +237,7 @@ export default function PrivacyPage() {
             <p className={paragraphClass}>
               The Website uses cookies and similar tools to remember
               preferences and understand how visitors use the site.
-              [List tools, such as Google Analytics, or delete this
-              sentence if none are used.] You can block or delete
-              cookies in your browser settings, though some features
+              You can block or delete cookies in your browser settings, though some features
               may not work. Because there is no common standard for
               "Do Not Track" browser signals, the Website does not
               respond to them.
@@ -260,7 +249,7 @@ export default function PrivacyPage() {
             <h2 className={headingClass}>8. Children</h2>
 
             <p className={paragraphClass}>
-              The Website is not directed to children under 13, and
+              The Website is not directed to children or teens under 18, and
               we do not knowingly collect their personal information.
               If you believe a child has sent us information, contact
               us and we will delete it.
@@ -349,7 +338,7 @@ export default function PrivacyPage() {
 
               <div className="mt-5 space-y-4 text-step-0 leading-relaxed text-brand-ink-soft">
                 <p>
-                  [MAILING ADDRESS]
+                  3168 Peppertree Drive, Middleburg, FL 32068
                 </p>
 
                 <p>
@@ -357,7 +346,8 @@ export default function PrivacyPage() {
                 </p>
 
                 <p>
-                  Email: [CONTACT EMAIL]
+                  Email: 
+info@optimalhomecareservices.com
                 </p>
 
                 <p className="border-t border-brand-line pt-4">
@@ -370,6 +360,6 @@ export default function PrivacyPage() {
 
         </div>
       </section>
-    </main>
+    </>
   );
 }
