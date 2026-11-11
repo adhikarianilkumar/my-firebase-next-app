@@ -21,11 +21,8 @@ export default function TermsPage() {
           <h1 className="font-display text-step-4 font-bold">
             Terms of Use
           </h1>
-          <p className="mt-4 text-step-1 font-semibold">
-            Optimal Homecare Services, LLC — Website Terms of Use
-          </p>
           <p className="mt-4 text-white/80">
-            Effective [EFFECTIVE DATE]
+            Effective 11/11/2026
           </p>
         </div>
       </section>
@@ -35,10 +32,10 @@ export default function TermsPage() {
 
           {/* Introduction */}
           <p className="text-step-0 leading-relaxed text-brand-ink-soft">
-            These Terms of Use govern your use of [WEBSITE ADDRESS] (the
+            These Terms of Use govern your use of www.optimalhomecareservices.com (the
             "Website"), operated by Optimal Homecare Services, LLC ("OHS,"
             "we," "us"). By using the Website, you agree to these Terms. If
-            you do not agree, please do not use the Website.
+            you disagree, please do not use the Website.
           </p>
 
           {/* 1. Who we are */}
@@ -59,7 +56,7 @@ export default function TermsPage() {
             <p className={paragraphClass}>
               OHS provides non-medical homemaker and companion services,
               such as companionship, light housekeeping, meal preparation,
-              shopping, errands, and respite for family members. OHS is
+              shopping, errands, and support for family members. OHS is
               not a home health agency. Our staff do not provide nursing,
               personal care (such as bathing, toileting, transferring, or
               feeding), medication administration, therapy, or any other
@@ -122,9 +119,9 @@ export default function TermsPage() {
               directly.{" "}
               <strong>
                 Please do not include medical information, Social Security
-                numbers, account numbers, or passwords in Website forms;
+                numbers, account numbers, or passwords in Website forms.
               </strong>{" "}
-              we will collect what we need securely during intake.
+              We will collect what we need securely during intake.
             </p>
           </section>
 
@@ -151,7 +148,7 @@ export default function TermsPage() {
               of employment. OHS is an equal opportunity employer. Every
               position with client contact requires Level 2 background
               screening under Florida law, and applicants must be at
-              least 18 years old.
+              least 21 years old.
             </p>
           </section>
 
@@ -217,7 +214,8 @@ export default function TermsPage() {
             <p className={paragraphClass}>
               We want the Website to be usable by everyone. If you have
               trouble using any part of it, call (904) 872-6116 or email
-              [CONTACT EMAIL], and we will provide the information
+              
+info@optimalhomecareservices.com, and we will provide the information
               another way.
             </p>
           </section>
@@ -301,7 +299,7 @@ export default function TermsPage() {
 
               <div className="mt-5 space-y-4 text-step-0 leading-relaxed text-brand-ink-soft">
                 <p>
-                  [MAILING ADDRESS]
+                  3168 Peppertree Drive, Middleburg, FL 32068
                 </p>
 
                 <p>
@@ -314,7 +312,8 @@ export default function TermsPage() {
                 </p>
 
                 <p>
-                  Email: [CONTACT EMAIL]
+                  Email: 
+info@optimalhomecareservices.com
                 </p>
 
                 <p>
