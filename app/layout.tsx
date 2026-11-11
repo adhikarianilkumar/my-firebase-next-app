@@ -66,6 +66,12 @@ export default function RootLayout({ children } : LayoutProps<"/">) {
                   <li>
                     <a href="/careers" className="text-white/80 no-underline hover:text-white hover:underline">Careers</a>
                   </li>
+                  <li>
+                    <a href="/terms" className="text-white/80 no-underline hover:text-white hover:underline">Terms of Service</a>
+                  </li>
+                  <li>
+                    <a href="/privacy" className="text-white/80 no-underline hover:text-white hover:underline">Privacy Policy</a>
+                  </li>
                 </ul>
               </div>
 
